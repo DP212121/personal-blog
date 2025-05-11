@@ -7,9 +7,9 @@ type Post = {
   };
 
 const posts = [
-    { title: 'Why Python Clicked for Me', tags: ['Projects'], content: `I had tried Python a few times before, but it finally clicked when I automated a personal finance tracker...` },
-    { title: 'Macro Thoughts Before Coffee', tags: ['Shower Thoughts'], content: `Markets don't care if you're tired — but your trades might show it...` },
-    { title: 'Weekly Markets Recap', tags: ['Weekly Markets'], content: `This week saw volatility in oil, tech earnings surprises, and renewed speculation on interest rates...` }
+    { title: 'HOI4 Modding - Start', tags: ['Projects'], content: `Updating this section soon with my progress on the HOI4 mod. All I have right now is that it will be alt history in a world where revolutionary zeal in the 1700s and 1800s were successfully repressed. ` },
+    { title: 'Productive Procrastination', tags: ['Shower Thoughts'], content: `Something I've been thinking about for a while now. Will get around to finishing my thoughts here soon.` },
+    { title: 'Weekly Markets Recap', tags: ['Weekly Markets'], content: `This is a placeholder, I'll be updating this section with my ideas on how the weekly market changes meshed with my macro views.` }
   ];
   
 const BlogGrid = () => {
@@ -17,7 +17,7 @@ const BlogGrid = () => {
 
   return (
     <section className="section">
-      <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Blog</h2>
+      <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Thoughts</h2>
 
       <div style={{ display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' }}>
         {posts.map((post, idx) => (

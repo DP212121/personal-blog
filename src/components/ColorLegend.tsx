@@ -1,6 +1,6 @@
 const legend = [
     { label: 'Accounting', color: '#FF6347' },
-    { label: 'Tech Projects', color: '#1E90FF' },
+    { label: 'Programming', color: '#1E90FF' },
     { label: 'Markets', color: '#32CD32' }
   ];
   
